@@ -1,0 +1,16 @@
+1) pwd
+2) mkdir Course
+3) cd Course
+4) mkdir Lesson_1 Lesson_2 Lesson_3
+5) cd Lesson_1
+6) touch Terminal_is.txt Terminal_needs_for.txt Main_comands.txt I.json You.json
+7) mkdir Papka1 Papka2 Papka3
+8) ls -la
+9) vim main_comands.txt
+10) i
+11) esc, :wq
+12) cd ..
+13) mv -f You.json I.json Papka1
+14) cp Terminal_is.txt Terminal_needs_for.txt Papka2
+15) find . -name &название непустого файла (с расширением) или папки&
+
