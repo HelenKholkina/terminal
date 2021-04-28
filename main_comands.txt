@@ -1,16 +1,26 @@
-1) pwd
-2) mkdir Course
-3) cd Course
-4) mkdir Lesson_1 Lesson_2 Lesson_3
-5) cd Lesson_1
-6) touch Terminal_is.txt Terminal_needs_for.txt Main_comands.txt I.json You.json
-7) mkdir Papka1 Papka2 Papka3
-8) ls -la
-9) vim main_comands.txt
-10) i
-11) esc, :wq
-12) cd ..
-13) mv -f You.json I.json Papka1
-14) cp Terminal_is.txt Terminal_needs_for.txt Papka2
-15) find . -name &название непустого файла (с расширением) или папки&
-
+1) pwd - посмотьреть где я
+2) mkdir Course - создать папку Course
+3) cd Course - перейти в папку Course
+4) mkdir Lesson_1 Lesson_2 Lesson_3 - создать три папки
+5) cd Lesson_1 - перейти в папку Lesson_1
+6) touch Terminal_is.txt Terminal_needs_for.txt Main_comands.txt I.json You.json - создать три файла txt и два файла json
+7) mkdir Papka1 Papka2 Papka3 - создать три папки
+8) ls -la - посмотреть содержимое папки, включая скрытые файлы
+9) vim main_comands.txt - открыть файл txt
+10) i - включить режим insent и ввести текст
+11) esc, :wq - выйти из режима insent, сохранить и выйти из vim
+12) cd .. - подняться на один уровень выше
+13) mv -f You.json I.json Papka1 - перенести файлы You.json и I.json в папку Papka1
+14) cp Terminal_is.txt Terminal_needs_for.txt Papka2 - скопировать файлы Terminal_is.txt и Terminal_needs_for.txt
+и перенести в папку Papka2
+15) find . -name &название непустого файла (с расширением) или папки& - найти файл по имени
+16) less main_comands.txt - просмотреть содержимое в реальном времени, для выхода :q
+  команда grep - осуществляет поиск по тексту файла
+  синтаксис grep [опции] шаблон [имя файла]
+17) head -3 main_comands.txt - вывести 3 первых строк из текстового файла
+18) tail -2 main.comands.txt - вывести 2 последних строк из текстового файла
+19) просмотреть содержимое длинного файла
+  команда less - просмотр длинного текстового файла с возможностью перемотки текста назад-вперед,
+  осуществления поиска в обоих направления, перехода сразу в конец-начало
+  синтаксис less [опции] [имя файла]
+20) date - вывести дату и время
