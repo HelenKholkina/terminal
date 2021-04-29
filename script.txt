@@ -1,0 +1,8 @@
+# !/bin/bash
+cd Lesson1 #для вызова скрипта используем команду ./script.txt
+mkdir Lesson_1 Lesson_2 Lesson_3
+cd Lesson_1
+touch Terminal.txt Terminal2.txt Main_comands1.txt I1.json You1.json
+mkdir Papka1 Papka2 Papka3
+ls -la
+mv -f You1.json I1.json Papka1
