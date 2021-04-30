@@ -2,11 +2,12 @@
 2) Скопировать SSH ново репозитории на сайте во вкладке Code
 Далее работаем в Git Bash:
 3) cd git_repo
-4) git clona @скопированная ссылка@
+4) git clone @скопированная ссылка@
 5) yes
 6) key
 7) cd Terminal
 8) *перенести файлы, которые хотим в эту папку на самом компе
 9) git status
-10) git add
-11) git push
+10) git add .
+11) git commit -m "комментарий"
+12) git push
